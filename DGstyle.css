@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar{
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #484e4fba;
+}
+html::-webkit-scrollbar-track{
+    background-color:#d6dfe09c;
+}
+html::-webkit-scrollbar-track:hover{
+    background-color: rgb(117, 119, 114);
+}
+.big-image {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("images/DGbackground.jpg");
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+  
+nav{
+	width: 35%;
+	height: 40px;
+	background-color: #b9c2c487;
+	line-height: 40px;
+    padding-right: 3.3%;
+	position:fixed;
+	z-index: 1;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 12px;
+    font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color:#86a915;
+}
+nav ul li .active{
+	color:#ffff;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding-top: 4.5%;
+}
+.rect{
+    height: 450px;
+    width: 460px;
+    background:#7a8183cb;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    float: left;
+    border-radius: 8px;
+    
+}
+.move{
+    padding-top: 50px;
+    height: 550px;
+    width: 1300px;
+}
+p1{
+    padding-top: 10px;
+}
+p2{
+    color:rgb(253, 253, 253);
+}
+p2 ul li{
+    text-align: left;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.rect1{
+    height: 380px;
+    width: 760px;
+    background-image: url("images/DGoperation.JPG");
+    background-size: contain;
+    background-color: rgb(54, 60, 58);
+    background-position: 50% 50%;
+    margin-top: 50px;
+    float: right;
+    border-radius: 8px;
+}

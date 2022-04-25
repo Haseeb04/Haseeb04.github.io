@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Reader</title>
+    <link rel = "stylesheet" href = "BRstyle.css">
+</head>
+<body>
+    <div class="big-image">
+        <div class="overlay">
+            <nav>
+                <ul>
+                    <li><a href="Main.html" class="active">Home</a></li>
+                    <li><a href="Digital_Camera.html">Digital Camera</a></li>
+                    <li><a href="Barcode_Reader.html">Barcode Reader</a></li>
+                    <li><a href="RFID_tags.html">RFID Tags</a></li>
+                </ul>
+            </nav>
+            <h1>
+                Barcode Reader
+            </h1>
+            <p1>
+                A barcode is a means of rapresenting data in machine-readable form.
+            </p1>
+            <p3>
+                Traditional barcodes rapresent data by a aset of parallel lines of varied width and spacing. 
+            </p3>
+            <div class = "move">
+                <div class = "rect">
+                    <p2>
+                        Principles of operation of a Barcode:
+                        <ul type = "none">
+                            <li>1) A light from a laser illuminates the barcode.</li>
+                            <li>2) More light is reflected from the white areas than from the black bars.</li>
+                            <li>3) The reflected light is captured by one or more photoelectric cells that generate a set of electrical pulses that correspond to the black and white stripes in the barcode.</li>
+                            <li>4) These pulses are processed and converted to a binary number that rapresents the code.</li>
+                            <li>5) Check digit.</li>
+                            
+                        </ul>
+                        <div class = "note1">
+                        <div class = "note">
+                            Most barcode readers indicate that the barcode has been read successfully, for example by sounding a beep or showing a green light.
+                        </div>
+                    </div>
+                    </p2>
+                </div>
+                <div class = "move1">
+                    <div class = "rect1">
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class  = "move2">
+                <div class = "rect2">
+                    <p6>
+                        Calculate the check digit of a Barcode
+                    </p6>
+                    <div class = "move3">
+                        <div class = "rect3">
+
+                        </div>
+                    </div>
+                    <div class = "move4">
+                        <div class = "rect4">
+                                Calculate the check digit of the following barcode using the following technique, add each number in
+                                an odd position in the barcode (ie. 9 + 8 + 9 + 2...) add them to the sum of the even positions each
+                                multiplied by 3 (ie. 21 + 3 + 3 + 0 ...), then take the modulus of the sum by 10 away from ten /10.
+                                (Sum%10)).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar{
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #484e4fba;
+}
+html::-webkit-scrollbar-track{
+    background-color:#d6dfe09c;
+}
+html::-webkit-scrollbar-track:hover{
+    background-color: rgb(117, 119, 114);
+}
+body{
+    background-image: url("images/RFID_tags.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: 50% 50%;
+    
+}
+.overlay {
+    position: absolute;
+    height: 1600px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
+nav{
+	width: 35%;
+	height: 40px;
+	background-color: #0044ffc0;
+    padding-right: 3.3%;
+	line-height: 40px;
+    position:fixed;
+	z-index: 1;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 12px;
+    font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color:#86a915;
+}
+nav ul li .active{
+	color:#ffff;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding-top: 4.5%;
+    
+}
+p1{
+    font-size: 20px;
+}
+p3{
+    height: auto;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+}
+.move{
+    padding-top: 50px;
+    height: 500px;
+    width: 1000px;
+}
+p2 ul li{
+    text-align:left;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.rect{
+    height: 420px;
+    width: 460px;
+    background:#1e46e6a1;
+    text-align:center;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    float: left;
+    border-radius: 8px;
+    
+}
+.note1{
+    height: 350px;
+    width: 400px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.note{
+    height: 165px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 8px;
+    font-size: 16px;
+    padding-top: 10px;
+    border-color: #2a3d0f;
+    border-width: 1px;
+    border-style:solid;
+
+}
+.rect1{
+    height: 380px;
+    width: 370px;
+    background-image: url("images/RFID_chip_antenna.jpeg");
+    background-size: contain;
+    float: right;
+    border-radius: 8px;
+    margin-top: 40px;
+    text-align: center;
+}
+p6{
+    font-size: 30px;
+}
+.move2{
+    padding-top: 30px;
+}
+.rect2{
+    height: 730px;
+    width: 1000px;
+    background-color: rgba(23, 74, 217, 0.537);
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+.move3{
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+}
+.rectex3{
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+    background-image: url("images/RFIDex3.jpeg");
+    background-size: contain;
+    border-radius: 8px;
+    float:right
+}
+.rectex2{
+    height: 300px;
+    width: 400px;
+    background-image: url("images/RFIDex2.jpeg");
+    background-size: contain;
+    border-radius: 8px;
+    float:left
+}
+.move4{
+    padding-right: 50px;
+}
+.rect4{
+    height: 250px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 8px;
+    font-size: 16px;
+    text-align:left;
+    margin-top: 50px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-color: #2a3d0f;
+    border-width: 3px;
+    border-style:solid;
+}
+.rect4 ul li{
+    text-align:left;
+    font-size: 16px;
+}
